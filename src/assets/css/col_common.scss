@@ -1,0 +1,34 @@
+@import 'include';
+ul.collistbox{
+    @include widthbox();
+    li{
+        @include includeflex();
+        padding: 6vw 0;
+        border-bottom: 1px solid #e3e3e3;
+        &:last-child{
+            border: none;
+        }
+        div.txt{
+            width: 58%;
+            h1{
+                font-size: 4.4vw;
+                line-height: 1.7;
+            }
+            div.timelook{
+                @include includeflex();
+                font-size: 4vw;
+                color: #a8a8a8;
+                div.look{
+                    background: url(../img/common/eys.jpg) left center no-repeat;
+                    background-size: 6.5vw auto;
+                    padding-left: 7vw;
+                }
+            }
+        }
+        div.imgs{
+            width: 40%;
+            height: 28vw;
+            @include background();
+        }
+    }
+}

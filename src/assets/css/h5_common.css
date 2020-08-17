@@ -1,0 +1,183 @@
+@charset "UTF-8";
+/***************公共样式**************/
+body {
+  font-size: calc(100vw / 750 * 100);
+}
+
+body, h1, h2, h3, h4, h5, h6, form {
+  margin: 0px;
+  padding: 0px;
+}
+
+html, body {
+  height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: normal;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: inherit;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+img {
+  border: 0;
+}
+
+dl {
+  margin: 0;
+  padding: 0;
+}
+
+dl dd {
+  margin: 0;
+}
+
+.float_left {
+  float: left;
+}
+
+.float_right {
+  float: right;
+}
+
+.clear {
+  clear: both;
+  line-height: 0;
+  padding: 0;
+  margin: 0;
+}
+
+input,
+select {
+  padding: 0;
+  border: 1px solid #dcdcdc;
+  display: block;
+  background: #fff;
+  outline: none;
+  border-radius: 0;
+  box-sizing: border-box;
+  appearance: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+
+input:focus,
+select:focus {
+  outline: none;
+  background: #fff;
+  color: #333;
+  border: 1px solid #dcdcdc;
+}
+
+[v-cloak] {
+  display: none;
+}
+
+/**顶部调用**/
+div.includetop .topline {
+  height: 10vw;
+  background: url(../img/common/common1.jpg) center top no-repeat;
+  background-size: cover;
+}
+
+div.includetop img.logo {
+  display: block;
+  width: 52%;
+  margin: 5vw auto;
+}
+
+div.includetop ul.column {
+  padding: 0 6%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #000;
+}
+
+div.includetop ul.column li {
+  font-size: 5vw;
+  line-height: 2;
+  position: relative;
+}
+
+div.includetop ul.column li::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0;
+  height: 5vw;
+  top: 2.8vw;
+  right: -5vw;
+  border-right: 1px solid #000;
+}
+
+div.includetop ul.column li:last-child::after {
+  border: none;
+}
+
+div.includetop ul.column li.on {
+  color: #da251d;
+}
+
+/**顶部调用-END**/
+/**底部调用**/
+div.includebottom {
+  text-align: center;
+  line-height: 1.8;
+  background: #f3f1f1;
+  padding: 4vw 0;
+}
+
+div.includebottom div.topc {
+  font-size: 5vw;
+}
+
+div.includebottom div.text {
+  font-size: 4.5vw;
+}
+
+div.includebottom2 {
+  text-align: center;
+  line-height: 1.8;
+  padding: 4vw 0;
+}
+
+div.includebottom2 div.topc {
+  font-size: 5vw;
+}
+
+div.includebottom2 div.text {
+  font-size: 4.5vw;
+}
+
+/**底部调用-END**/
+/*# sourceMappingURL=h5_common.css.map */

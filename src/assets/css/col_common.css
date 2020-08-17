@@ -1,0 +1,48 @@
+ul.collistbox {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+}
+
+ul.collistbox li {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding: 6vw 0;
+  border-bottom: 1px solid #e3e3e3;
+}
+
+ul.collistbox li:last-child {
+  border: none;
+}
+
+ul.collistbox li div.txt {
+  width: 58%;
+}
+
+ul.collistbox li div.txt h1 {
+  font-size: 4.4vw;
+  line-height: 1.7;
+}
+
+ul.collistbox li div.txt div.timelook {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 4vw;
+  color: #a8a8a8;
+}
+
+ul.collistbox li div.txt div.timelook div.look {
+  background: url(../img/common/eys.jpg) left center no-repeat;
+  background-size: 6.5vw auto;
+  padding-left: 7vw;
+}
+
+ul.collistbox li div.imgs {
+  width: 40%;
+  height: 28vw;
+  background-position: center top;
+  background-size: cover;
+}
+/*# sourceMappingURL=col_common.css.map */

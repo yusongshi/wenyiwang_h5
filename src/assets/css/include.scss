@@ -1,0 +1,32 @@
+@mixin font-overflow($height) {
+  @if ($height) {
+    height: $height;
+  }
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+@mixin font-overflow-more($index: 2) {
+  display: block;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: $index;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+@mixin includeflex(){
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+@mixin widthbox(){
+    display: block;
+    width: 94%;
+    margin: 0 auto;
+}
+@mixin background(){
+  background-position: center top;
+        background-size: cover;
+}

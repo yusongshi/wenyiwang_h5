@@ -1,0 +1,146 @@
+ul.toplb {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul.toplb li {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  width: fit-content;
+  font-size: 4vw;
+  color: #8e8e8e;
+  line-height: 2;
+}
+
+div.titcommon {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  background: url(../img/index/index5.jpg) center center repeat-x;
+}
+
+div.titcommon span {
+  display: block;
+  width: 60%;
+  margin: 0 auto;
+  padding: 0 10px;
+  background: #fff;
+  text-align: center;
+  font-size: 5vw;
+}
+
+div.titcommon span img {
+  display: block;
+  width: 100%;
+}
+
+ul.collist {
+  width: 94%;
+  margin: 0 auto;
+}
+
+ul.collist li {
+  font-size: 5vw;
+  line-height: 2;
+  color: #333;
+  display: block;
+  display: -webkit-box;
+  /* autoprefixer: off */
+  -webkit-box-orient: vertical;
+  /* autoprefixer: on */
+  -webkit-line-clamp: 1;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+div.yifuw {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  height: 56vw;
+  background-position: center top;
+  background-size: cover;
+}
+
+div.yfwtit {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  font-size: 5vw;
+  text-align: center;
+}
+
+div.yfwdec {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  font-size: 4.5vw;
+  color: #52514f;
+}
+
+div.yfwbtm {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div.yfwbtm div.imgs {
+  position: relative;
+  width: 47%;
+  height: 70vw;
+  background-position: center top;
+  background-size: cover;
+}
+
+div.yfwbtm div.imgs h1 {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.6);
+  font-size: 4.5vw;
+  color: #fff;
+  line-height: 1.6;
+  padding: 2vw 0;
+  left: 0;
+  bottom: 0;
+}
+
+ul.jiaoyiz {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+ul.jiaoyiz li {
+  width: 46%;
+}
+
+ul.jiaoyiz li div.imgs {
+  width: 100%;
+  height: 30vw;
+  position: relative;
+  background-position: center top;
+  background-size: cover;
+}
+
+ul.jiaoyiz li div.imgs img {
+  display: block;
+  position: absolute;
+  width: 30%;
+  left: 0;
+  right: 0;
+  top: 28%;
+  margin: 0 auto;
+}
+
+ul.jiaoyiz li h1 {
+  font-size: 4.5vw;
+  color: #52514f;
+}
+/*# sourceMappingURL=index.css.map */

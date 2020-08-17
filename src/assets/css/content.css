@@ -1,0 +1,41 @@
+div.content {
+  display: block;
+  width: 94%;
+  margin: 0 auto;
+}
+
+div.content h1 {
+  font-size: 6vw;
+  font-weight: bold;
+  text-align: center;
+  padding: 6vw 0;
+}
+
+div.content h2 {
+  font-size: 4vw;
+  color: #737272;
+  text-align: center;
+}
+
+div.content div.text {
+  font-size: 4.5vw;
+  line-height: 2;
+}
+
+div.content div.text p {
+  font-size: 4.5vw;
+}
+
+div.content div.text p img {
+  width: 100% !important;
+}
+
+div.content div.text figure {
+  font-size: 5vw !important;
+}
+
+div.content div.text figure figcaption {
+  font-size: inherit;
+  line-height: 1.6 !important;
+}
+/*# sourceMappingURL=content.css.map */

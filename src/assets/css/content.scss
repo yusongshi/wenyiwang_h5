@@ -1,0 +1,35 @@
+@import 'include';
+
+div.content{
+    @include widthbox();
+    h1{
+        font-size: 6vw;
+        font-weight: bold;
+        text-align: center;
+        padding: 6vw 0;
+    }
+    h2{
+        font-size: 4vw;
+        color: #737272;
+        text-align: center;
+    }
+    div.text{
+        font-size: 4.5vw;
+        line-height: 2;
+        p{
+            font-size: 4.5vw;
+            img{
+                width: 100%!important;
+            }
+        }
+        figure{
+            font-size: 5vw!important;
+            figcaption{
+                font-size: inherit;
+                line-height: 1.6!important;
+            }
+            
+        }
+        
+    }
+}
