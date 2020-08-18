@@ -154,7 +154,7 @@ div.includebottom {
   text-align: center;
   line-height: 1.8;
   background: #f3f1f1;
-  padding: 4vw 0;
+  padding: 4vw 0 10vw;
 }
 
 div.includebottom div.topc {
@@ -162,21 +162,34 @@ div.includebottom div.topc {
 }
 
 div.includebottom div.text {
-  font-size: 4.5vw;
+  font-size: 4.2vw;
 }
 
 div.includebottom2 {
+  position: relative;
   text-align: center;
   line-height: 1.8;
-  padding: 4vw 0;
+  padding: 4vw 0 12vw;
+}
+
+div.includebottom2 img.bgstyle {
+  display: block;
+  position: absolute;
+  width: 45%;
+  bottom: 0;
+  right: 0;
 }
 
 div.includebottom2 div.topc {
+  position: relative;
+  z-index: 2;
   font-size: 5vw;
 }
 
 div.includebottom2 div.text {
-  font-size: 4.5vw;
+  position: relative;
+  z-index: 2;
+  font-size: 4.2vw;
 }
 
 /**底部调用-END**/
